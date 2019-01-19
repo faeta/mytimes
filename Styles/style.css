@@ -1,0 +1,181 @@
+/* Header */
+
+header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: Verdana;
+  	font-size: 14px;
+  	font-weight: bold;
+  	position: fixed;
+  	height: 70px;
+  	width: 100%;
+  	background-color: white;
+  	top: 0;
+  	border-bottom: 1px solid black;
+}
+
+.mytimes{
+	display: flex;
+	align-items: center;
+  	color: MediumAquamarine;
+  	flex-grow: 1;
+  	padding-left: 30px;
+}
+
+.mytimes img{
+	width: 70px
+	height: 80px;
+	margin-right: 12px;
+}
+
+nav{
+	margin-right: 20px;
+}
+
+.nav{
+	padding: 10px;
+}
+
+.nav a{
+	color: black;
+}
+
+/* Main Body */
+
+h1{
+	font-size: 30px;
+}
+
+.flex{
+	display: flex;
+	width: 1250px;
+	justify-content: space-between;
+	padding-top: 100px;
+	font-family: Georgia;
+  	font-size: 17px;
+  	color: black;
+  	margin-bottom: 70px;
+}
+
+
+.image {
+	margin: auto;
+	font-family: Georgia;
+ 	font-weight: bold;
+  	font-size: 30px;
+ 	color: white;
+}
+
+/*Far Left Column*/
+
+
+.column.large {
+  width: 630px;
+  flex-direction: column;
+}
+
+.main{
+	background-image: url("../resources/img-story-main.png");
+	font-size: 40px;
+	height: 300px;
+}
+
+.bottom{
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-bottom{
+	width: 300px;
+}
+
+.text{
+	padding-bottom: 20px;
+}
+
+.fall{
+	background-image: url("../resources/img-story-2.png");
+	height: 300px;
+	width: 300px;
+	text-align: center;
+	margin: 0;
+}
+
+.camera{
+	background-image: url("../resources/img-story-3.png");
+	height: 300px;
+	width: 300px;
+	text-align: center;
+	margin: 0;
+}
+
+
+/*Middle Column*/
+
+.column.medium {
+  width: 300px;
+}
+
+.cat{
+	background-image: url("../resources/img-story-1.png");
+	height: 300px;
+	text-align: center;
+}
+
+
+/*Far Right Column*/
+
+.column.small {
+  width: 240px;
+  flex-direction: column;
+}
+
+.news-bites{
+	font-size: 16px;
+  	font-weight: bold;
+  	text-align: center;
+  	padding: 20px;
+}
+
+.news{
+	background-color: WhiteSmoke;
+  	font-family: Verdana;
+  	font-size: 12px;
+  	color: DimGray;
+  	border-bottom: 0.5px solid black;
+  	padding: 15px;
+  	margin: 0;
+  	width: 200px;
+}
+
+/*Footer*/
+
+footer{
+	display: flex;
+	background-color: MediumAquamarine;
+  	margin: auto;
+  	font-family: Verdana;
+  	font-size: 12px;
+  	height: 300px;
+  	width: 100%;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+}
+
+.mytimes-footer{
+	font-family: Georgia;
+  	font-size: 16px;
+  	font-weight: bold;
+  	color: white;
+  	padding-right: 25px;
+  	border-right: 2px solid white;
+  	display: inline-block;
+}
+
+.footer{
+	margin-left: 25px;
+	display: inline-block;
+}
+
