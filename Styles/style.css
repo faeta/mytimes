@@ -1,3 +1,7 @@
+body{
+	margin: 0;
+}
+
 /* Header */
 
 header{
@@ -49,8 +53,7 @@ h1{
 
 .flex{
 	display: flex;
-	width: 1250px;
-	justify-content: space-between;
+	justify-content: space-around;
 	padding-top: 100px;
 	font-family: Georgia;
   	font-size: 17px;
@@ -75,11 +78,18 @@ h1{
   flex-direction: column;
 }
 
-.main{
+.parent-large{
+	display: flex;	
+	align-items: center;
 	background-image: url("../Resources/img-story-main.png");
-	font-size: 40px;
 	height: 300px;
 }
+
+.main{
+	font-size: 40px;
+
+}
+
 
 .bottom{
 	display: flex;
