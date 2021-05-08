@@ -200,11 +200,28 @@ footer{
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) and (orientation : portrait) { 
 
-.medium{
-	display: none;
-}
-
+	.column.large{
+		width: 100%;
 	}
+
+	.bottom{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.flex{
+		display: block;
+	}
+
+
+	.medium{
+	display: none;
+	}
+
+	.small{
+		display: none;
+	}
+}
 
 /*iPad Media Query - Landscape Orientation*/
 
@@ -213,15 +230,22 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : landscape) { 
 
+
 	.medium{
 	display: none;
 }
+
 
 }
 
 /*Mobile Media Query*/
 
 @media only screen and (max-width: 768px) {
+
+	.bottom{
+		display: flex;
+		flex-wrap: wrap;
+	}
 
 	.small{
 		display: none;
@@ -230,6 +254,23 @@ and (orientation : landscape) {
 		.medium{
 	display: none;
 }
+
+	.mytimes-footer{
+		margin-left: 90px;
+		border-right: none;
+	}
+	
+	footer div{
+		padding: 30px;
+	}
+
+	nav{
+		display: flex;
+
+	}
+	.nav{
+		padding: 5px;
+	}
 
 
 	}
