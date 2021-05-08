@@ -47,6 +47,10 @@ nav{
 
 /* Main Body */
 
+.column{
+	padding: 0 10px;
+}
+
 h1{
 	font-size: 30px;
 }
@@ -189,3 +193,43 @@ footer{
 	display: inline-block;
 }
 
+
+/*iPad Media Query - Portrait Orientation*/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) and (orientation : portrait) { 
+
+.medium{
+	display: none;
+}
+
+	}
+
+/*iPad Media Query - Landscape Orientation*/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+
+	.medium{
+	display: none;
+}
+
+}
+
+/*Mobile Media Query*/
+
+@media only screen and (max-width: 768px) {
+
+	.small{
+		display: none;
+	}
+
+		.medium{
+	display: none;
+}
+
+
+	}
